@@ -19,7 +19,7 @@ try:
     print('Запись удалена') 
 
     cursor.execute('SELECT * FROM employees')
-    print('Результат:', cursor.fetchall()) # Вывод всей таблицы
+    print('Результат:', cursor.fetchall()) 
 
 except (Exception, Error) as error:
     print('Ошибка при работе с базой данных', error)
